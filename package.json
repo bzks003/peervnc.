@@ -1,0 +1,31 @@
+{
+  "author": "Tom Zhou <iwebpp@gmail.com>",
+  "name": "peer-vnc",
+  "description": "noVNC port of Node.js for Peers",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/InstantWebP2P/peer-vnc.git"
+  },
+  "keywords": [
+    "peer",
+    "p2p",
+    "webp2p",
+    "http",
+    "vnc"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "main": "index",
+  "bin": {
+    "peer-vnc": "./bin/peer-vnc"
+  },
+  "dependencies": {
+    "iwebpp.io": "latest",
+    "wspp": "latest",
+    "connect": "2.8.x",
+    "commander": "~1.1.1",
+    "optimist": "0.3.x"
+  }
+}
